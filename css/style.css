@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:  #fd3;
+    color: rgb(234, 236, 82);
+}
