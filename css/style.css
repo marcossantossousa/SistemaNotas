@@ -31,7 +31,7 @@ body {
 
 .header h2 {
     font-weight: 600;
-    color: #ACBAE1;
+    color: #ace1b9;
     font-size: 30px;
 }
 
@@ -48,7 +48,7 @@ body {
 .form-control label {
     display: inline-block;
     margin-bottom: 5px;
-    color: #828CAD;
+    color: #fff;
 }
 
 .form-control input {
@@ -62,6 +62,9 @@ body {
 
     width: 100%;
     padding: 15px;
+}
+input::placeholder {
+    color: #ace1b9;
 }
 
 .form-control.success input {
@@ -118,3 +121,4 @@ body {
     background-color: #584ff5;
     transition: 0.3s;
 }
+

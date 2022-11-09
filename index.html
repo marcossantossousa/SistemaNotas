@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon/favicon.PNG" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/style.css">
 
-    <script defer  src="./js/script.js"></script>
+    <script defer src="./js/script.js"></script>
 
     <title>Sistema de média</title>
-    
+
 </head>
+
 <body>
-<div class="container">
+    <div class="container">
 
-    <div class="header">
-        <h2>Média do aluno</h2>
+        <div class="header">
+            <h2>Média do aluno</h2>
+        </div>
+        <form class="form" id="form">
+
+            <div class="form-control">
+                <label for="" id="n1">I unidade: </label>
+                <input id="n1" type="number" >
+                <i><img class="success" src="./image/success-icon.svg" alt=""></i>
+                <i><img class="error" src="./image/error-icon.svg" alt=""></i>
+
+                <small>Error note</small>
+            </div>
+            <div class="form-control">
+                <label for="" id="n2">II unidade: </label>
+                <input id="n1" type="number" placeholder="Digite a nota da II unidade">
+                <i><img class="success" src="./image/success-icon.svg" alt=""></i>
+                <i><img class="error" src="./image/error-icon.svg" alt=""></i>
+
+                <small>Error note</small>
+            </div>
+            <div class="form-control">
+                <label for="" id="n3">III unidade: </label>
+                <input id="n1" type="number" placeholder="Digite a nota da III unidade">
+                <i><img class="success" src="./image/success-icon.svg" alt=""></i>
+                <i><img class="error" src="./image/error-icon.svg" alt=""></i>
+
+                <small>Error note</small>
+            </div>
+            <div class="form-control">
+                <label for="" id="n4">IV unidade : </label>
+                <input id="n1" type="number" placeholder="Digite a nota da IV unidade">
+                <i><img class="success" src="./image/success-icon.svg" alt=""></i>
+                <i><img class="error" src="./image/error-icon.svg" alt=""></i>
+
+                <small>Error note</small>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
     </div>
-    <form class="form" id="form">
-
-        <div class="form-control">
-            <label for="" id="n1">I unidade: </label>
-            <input id="n1" type="number" placeholder="Digite a nota da I unidade">
-            <i><img src="./image/success-icon.svg" alt=""></i>
-            <i><img src="./image/error-icon.svg" alt=""></i>
-
-            <small>Error note</small>
-        </div>
-        <div class="form-control">
-            <label for="" id="n2">II unidade: </label>
-            <input id="n1" type="number" placeholder="Digite a nota da II unidade">
-            <i><img src="./image/success-icon.svg" alt=""></i>
-            <i><img src="./image/error-icon.svg" alt=""></i>
-
-            <small>Error note</small>
-        </div>
-        <div class="form-control">
-            <label for="" id="n3">III unidade: </label>
-            <input id="n1" type="number" placeholder="Digite a nota da III unidade">
-            <i><img src="./image/success-icon.svg" alt=""></i>
-            <i><img src="./image/error-icon.svg" alt=""></i>
-
-            <small>Error note</small>
-        </div>
-        <div class="form-control">
-            <label for="" id="n4">IV unidade : </label>
-            <input id="n1" type="number" placeholder="Digite a nota da IV unidade">
-            <i><img src="./image/success-icon.svg" alt=""></i>
-            <i><img src="./image/error-icon.svg" alt=""></i>
-
-            <small>Error note</small>
-        </div>
-         <button type="submit">Enviar</button>
-    </form>
-</div>
 </body>
 
 </html>
